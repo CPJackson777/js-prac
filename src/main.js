@@ -35,3 +35,6 @@ console.log(str.split('').reverse().join(''))
 
 
 const sheeps = ['🐑', '🐑', '🐑'];
+
+const fakeSheeps = sheeps;
+const cloneSheeps = [...sheeps];
