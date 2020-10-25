@@ -38,3 +38,6 @@ const sheeps = ['🐑', '🐑', '🐑'];
 
 const fakeSheeps = sheeps;
 const cloneSheeps = [...sheeps];
+
+console.log(sheeps === fakeSheeps);
+// true --> it's pointing to the same memory space
