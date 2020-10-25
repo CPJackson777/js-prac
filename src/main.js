@@ -41,3 +41,6 @@ const cloneSheeps = [...sheeps];
 
 console.log(sheeps === fakeSheeps);
 // true --> it's pointing to the same memory space
+
+console.log(sheeps === cloneSheeps);
+// false --> it's pointing to a new memory space
