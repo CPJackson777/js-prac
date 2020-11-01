@@ -53,3 +53,7 @@ const lunch = {
 	guests: 3,
 	alcohol: false,
 };
+
+Object.keys(lunch).forEach(function (item) {
+
+});
