@@ -56,4 +56,5 @@ const lunch = {
 
 Object.keys(lunch).forEach(function (item) {
     console.log(item); // key
+    console.log(lunch[item]); // value
 });
