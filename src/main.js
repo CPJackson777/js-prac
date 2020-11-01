@@ -44,3 +44,12 @@ console.log(sheeps === fakeSheeps);
 
 console.log(sheeps === cloneSheeps);
 // false --> it's pointing to a new memory space
+
+const lunch = {
+	sandwich: 'ham',
+	snack: 'chips',
+	drink: 'soda',
+	desert: 'cookie',
+	guests: 3,
+	alcohol: false,
+};
