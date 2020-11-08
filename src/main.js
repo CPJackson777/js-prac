@@ -64,3 +64,6 @@ Object.keys(lunch).forEach(function (item) {
 
 // Mapping an array of numbers to an array of square roots
 let numbers = [1, 4, 9]
+let roots = numbers.map(function(num) {
+    return Math.sqrt(num)
+})
