@@ -60,3 +60,6 @@ Object.keys(lunch).forEach(function (item) {
 });
 
 // returns "sandwich", "ham", "snack", "chips", "drink", "soda", "desert", "cookie", "guests", 3, "alcohol", false
+
+
+// Mapping an array of numbers to an array of square roots
